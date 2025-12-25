@@ -1,123 +1,63 @@
-FaceSense
+<h1 align="center">FaceSense</h1>
+
+<h3 align="center">
 AI-Powered Facial Recognition–Driven Attendance Management System
-📌 Overview
+</h3>
 
-FaceSense is an intelligent, AI-powered attendance management system that leverages facial recognition to automatically identify individuals and record attendance. By integrating computer vision and machine learning, FaceSense eliminates manual attendance processes, minimizes proxy attendance, and significantly improves accuracy and efficiency.
+<p align="center">
+Accurate • Secure • Contactless • Scalable
+</p>
 
-🎯 Problem Statement
+<p align="center">
+  <img src="https://img.shields.io/badge/AI-Facial%20Recognition-blue" />
+  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-green" />
+  <img src="https://img.shields.io/badge/Backend-FastAPI-orange" />
+  <img src="https://img.shields.io/badge/Frontend-React%20%2B%20TailwindCSS-cyan" />
+  <img src="https://img.shields.io/badge/Status-Active-success" />
+</p>
+
+---
+
+## 📌 Overview
+
+**FaceSense** is an intelligent, AI-powered attendance management system that uses **facial recognition** to automatically identify individuals and record attendance.  
+It eliminates manual processes, prevents proxy attendance, and provides **real-time analytics** through a modern admin dashboard.
+
+The system combines **computer vision, machine learning, and a secure backend API** to deliver a fast, reliable, and scalable attendance solution.
+
+---
+
+## 🎯 Problem Statement
 
 Traditional attendance systems are often:
 
-Time-consuming
+- ⏳ Time-consuming  
+- ❌ Error-prone  
+- 🔓 Vulnerable to proxy or fake attendance  
 
-Error-prone
+**FaceSense** solves these problems by introducing a **contactless, biometric-based attendance workflow** with centralized data management and analytics.
 
-Susceptible to manipulation and proxy attendance
+---
 
-FaceSense addresses these challenges by offering a contactless, automated, and reliable attendance solution using facial biometrics.
+## 🚀 Key Features
 
-🚀 Key Features
+- ✅ Automated attendance using facial recognition  
+- 🎥 Real-time face detection and identification  
+- 🔐 Secure authentication with JWT tokens  
+- 📊 Admin dashboard with attendance analytics  
+- 🧑‍🎓 Student management (add, update, delete)  
+- 📁 Downloadable attendance reports  
+- ⚡ Fast and scalable REST APIs  
 
-✅ Automated attendance using facial recognition
+---
 
-🎥 Real-time face detection and identification
+## 🖥️ System Architecture
 
-🔐 Secure storage of attendance records
-
-⚡ Reduced manual effort and human error
-
-📈 Scalable for classrooms, offices, and organizations
-
-🛠️ Tech Stack & Tools
-Programming Language
-
-Python
-
-Computer Vision
-
-OpenCV
-
-Machine Learning / Deep Learning
-
-TensorFlow
-
-Keras
-
-Data Handling
-
-NumPy
-
-Pandas
-
-Face Detection & Recognition
-
-Haar Cascade
-
-CNN-based models
-
-Backend
-
-Flask / FastAPI
-
-Database
-
-SQLite / MySQL
-
-Development Tools
-
-Git
-
-GitHub
-
-Environment
-
-Jupyter Notebook
-
-Google Colab
-
-⚙️ How It Works
-
-Captures images or video feed from a camera
-
-Detects faces using computer vision techniques
-
-Extracts facial features and matches them with stored profiles
-
-Automatically marks attendance upon successful recognition
-
-Stores attendance records securely in a database
-
-📂 Project Structure (Sample)
-FaceSense/
-│── dataset/
-│── models/
-│── app.py
-│── requirements.txt
-│── README.md
-
-📈 Use Cases
-
-🎓 Educational institutions
-
-🏢 Corporate offices
-
-🧑‍🏫 Training centers
-
-🔐 Secure access and monitoring systems
-
-🔮 Future Enhancements
-
-🎥 Live camera-based real-time attendance
-
-☁️ Cloud database integration
-
-📱 Mobile application support
-
-🤖 Improved accuracy using advanced deep learning models
-
-👨‍💻 Author
-
-Saiteja
-🔗 GitHub: SaitejaKommi
-
-⭐ If you like this project, don’t forget to star the repository!
+```text
+Frontend (React + Tailwind)
+        ↓
+ FastAPI Backend (JWT Auth)
+        ↓
+ AI Face Recognition Engine
+        ↓
+     Database (MongoDB / MySQL)
