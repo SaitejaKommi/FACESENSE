@@ -1,4 +1,6 @@
-FaceSense – Face Recognition Based Attendance System
+FaceSense: AI-Powered Facial Recognition–Driven Attendance Management System
+
+
 📌 Overview
 
 FaceSense is an AI-powered attendance management system that uses facial recognition to automatically identify individuals and record attendance. The system eliminates manual attendance processes, reduces proxy attendance, and improves accuracy by leveraging computer vision and machine learning techniques.
@@ -84,3 +86,4 @@ Improved accuracy using advanced deep learning models
 👨‍💻 Author
 
 Saiteja
+
